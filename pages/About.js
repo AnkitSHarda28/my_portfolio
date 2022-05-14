@@ -37,7 +37,7 @@ export default function About() {
             <br /> ReactJS is what i love to work with
           </span>
         </div>
-        <a className="lg:visible sm:invisible">
+        <a>
           <Image
             src={"/AboutSoftware.svg"}
             width={400}
@@ -58,7 +58,7 @@ export default function About() {
             <br /> Nationals Under 17 in year 2017 (Represented Punjab).
           </span>
         </div>
-        <a className="lg:visible sm:invisible">
+        <a>
           <Image
             src={"/AboutBasketball.svg"}
             width={400}
@@ -84,7 +84,7 @@ export default function About() {
             <br /> Market. I love to learn about how the crypto world works.
           </span>
         </div>
-        <a className="lg:visible sm:invisible">
+        <a>
           <Image
             src={"/AboutTravelling.svg"}
             width={400}
