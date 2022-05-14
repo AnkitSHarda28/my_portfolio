@@ -7,15 +7,17 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="sm:justify-center">
+    <div className="sm:justify-center xxs:justify-center">
       <Navbar />
-      <div className="lg:flex lg:justify-between lg:mx-44 lg:mt-40 sm:mt-10 sm:text-center">
+      <div className="lg:flex lg:text-left  justify-between lg:mx-44 lg:mt-40 sm:mt-10 xxs:mt-10 sm:text-center xxs:text-center">
         <div className="space-y-20">
           <div>
-            <h1 className="lg:text-8xl sm:text-5xl">Hi, I am Ankit</h1>
+            <h1 className="lg:text-8xl sm:text-5xl xxs:text-5xl text-white">
+              Hi, I am Ankit
+            </h1>
           </div>
           <div>
-            <span className="lg:text-5xl sm:text-3xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text">
+            <span className="lg:text-4xl sm:text-3xl xxs:text-3xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text">
               I am a Front-End/ Full-Stack Developer.
               <br /> Currently I am. working on some
               <br /> personal projects.
@@ -59,7 +61,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="lg:visible sm:m-10">
+        <div className="lg:visible sm:m-10 xxs:m-10">
           <Image src={"/Homepage.svg"} width={500} height={500} alt="me" />
         </div>
       </div>
