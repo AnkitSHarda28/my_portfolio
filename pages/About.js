@@ -1,5 +1,6 @@
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -35,7 +36,7 @@ export default function About() {
           </span>
         </div>
         <a className="lg:visible sm:invisible">
-          <img src="/AboutSoftware.svg" />
+          <Image src={"/AboutSoftware.svg"} width={400} height={400} />
         </a>
       </div>
 
@@ -49,7 +50,7 @@ export default function About() {
           </span>
         </div>
         <a className="lg:visible sm:invisible">
-          <img src="/AboutBasketball.svg" />
+          <Image src={"/AboutBasketball.svg"} width={400} height={400} />
         </a>
       </div>
 
@@ -70,7 +71,7 @@ export default function About() {
           </span>
         </div>
         <a className="lg:visible sm:invisible">
-          <img src="/AboutTravelling.svg" />
+          <Image src={"/AboutTravelling.svg"} width={400} height={400} />
         </a>
       </div>
       <Footer />

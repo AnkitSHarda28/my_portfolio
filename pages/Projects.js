@@ -1,5 +1,6 @@
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
+import Image from "next/image";
 
 export default function Projects() {
   return (
@@ -37,7 +38,7 @@ export default function Projects() {
           href="https://movie-app-liart.vercel.app/"
           className="lg:visible sm:invisible"
         >
-          <img src="/MovieApp.png" width={600} />
+          <Image src={"/MovieApp.png"} width={600} height={350} />
         </a>
       </div>
 
@@ -68,7 +69,7 @@ export default function Projects() {
           </span>
         </div>
         <a href="https://pounders.com.au/" className="lg:visible sm:invisible">
-          <img src="/Pounders.png" width={600} />
+          <Image src={"/Pounders.png"} width={600} height={350} />
         </a>
       </div>
       <div className="flex justify-between mx-44 mt-52 items-center mb-52">
@@ -97,7 +98,7 @@ export default function Projects() {
           href="https://momos-ankitsharda28.vercel.app/"
           className="lg:visible sm:invisible"
         >
-          <img src="/MomoWest.png" width={600} />
+          <Image src={"/MomoWest.png"} width={600} height={350} />
         </a>
       </div>
       <Footer />

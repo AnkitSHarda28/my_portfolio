@@ -1,5 +1,6 @@
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
+import Image from "next/image";
 
 export default function Contact() {
   return (
@@ -27,37 +28,37 @@ export default function Contact() {
             href="https://www.linkedin.com/in/ankit-sharda-7878541a2/"
             className="hover:animate-pulse"
           >
-            <img src="/Linkedin.svg" />
+            <Image src={"/Linkedin.svg"} width={70} height={70} />
           </a>
           <a
             href="https://github.com/AnkitSHarda28"
             className="hover:animate-pulse"
           >
-            <img src="/Github.svg" />
+            <Image src={"/Github.svg"} width={70} height={70} />
           </a>
           <a
             href="https://twitter.com/AnkitSharda19"
             className="hover:animate-pulse"
           >
-            <img src="/Twitter.svg" />
+            <Image src={"/Twitter.svg"} width={70} height={70} />
           </a>
           <a
             href="https://www.instagram.com/ankit_sharda28/"
             className="hover:animate-pulse"
           >
-            <img src="/Insta.svg" />
+            <Image src={"/Insta.svg"} width={80} height={80} />
           </a>
           <a
             href="mailto:Ankitsharda68@gmail.com"
             className="hover:animate-pulse"
           >
-            <img src="/Gmail.svg" />
+            <Image src={"/Gmail.svg"} width={70} height={70} />
           </a>
           <a
             href="https://www.facebook.com/ankit.sharda.77/"
             className="hover:animate-pulse"
           >
-            <img src="/Facebook.svg" />
+            <Image src={"/Facebook.svg"} width={70} height={70} />
           </a>
         </div>
       </div>

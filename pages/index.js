@@ -2,6 +2,7 @@ import Head from "next/head";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -24,19 +25,19 @@ export default function Home() {
               href="https://www.linkedin.com/in/ankit-sharda-7878541a2/"
               className="hover:animate-pulse"
             >
-              <img src="/Linkedin.svg" />
+              <Image src={"/Linkedin.svg"} width={70} height={70} />
             </a>
             <a
               href="https://github.com/AnkitSHarda28"
               className="hover:animate-pulse"
             >
-              <img src="/Github.svg" />
+              <Image src={"/Github.svg"} width={70} height={70} />
             </a>
             <a
               href="https://twitter.com/AnkitSharda19"
               className="hover:animate-pulse"
             >
-              <img src="/Twitter.svg" />
+              <Image src={"/Twitter.svg"} width={70} height={70} />
             </a>
           </div>
           <div className="animate-bounce">
@@ -48,7 +49,7 @@ export default function Home() {
           </div>
         </div>
         <div className="lg:visible sm:invisible">
-          <img src="/Homepage.svg" />
+          <Image src={"/Homepage.svg"} width={500} height={500} />
         </div>
       </div>
       <Footer />
