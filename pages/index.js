@@ -8,7 +8,19 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="sm:justify-center xxs:justify-center">
-      <Navbar />
+      <>
+        <div className="flex justify-between items-center text-white p-5 bg-gradient-to-r from-left to-right">
+          <div className="lg:text-4xl sm:text-3xl xxs:text-3xl">
+            <Link href="/">&lt;Ankit Sharda/&gt;</Link>
+          </div>
+          <div className="lg:space-x-10 sm:space-x-10 xxs:text-sm xxs:space-x-3 lg:text-3xl sm:text-3xl flex ">
+            <Link href="/">Home</Link>
+            <Link href="/About">About</Link>
+            <Link href="/Projects">Projects</Link>
+            <Link href="/Contact">Contact</Link>
+          </div>
+        </div>
+      </>
       <div className="lg:flex lg:text-left  justify-between lg:mx-44 lg:mt-40 sm:mt-10 xxs:mt-10 sm:text-center xxs:text-center">
         <div className="space-y-20">
           <div>
@@ -56,7 +68,7 @@ export default function Home() {
           <div className="animate-bounce">
             <a href="/AnkitResume.pdf" download={"Ankit Sharda Resume"}>
               <button className="text-4xl h-20 w-64 rounded-lg  bg-gradient-to-r from-left1 to-right1">
-                Resume
+                <h1 className="text-white">Resume</h1>
               </button>
             </a>
           </div>

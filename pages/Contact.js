@@ -4,15 +4,17 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <div className="flex flex-col min-h-screen justify-between">
+    <div className="flex flex-col min-h-screen justify-between ">
       <div>
         <Navbar />
-        <div className="mx-44 mt-40 h-auto">
-          <h1 className="lg:text-7xl md:text-5xl mb-5">Contact</h1>
+        <div className="lg:mx-44 lg:mt-40 xxs:text-center xxs:mt-10 sm:text-center sm:mt-10 h-auto">
+          <h1 className="lg:text-7xl sm:text-5xl xxs:text-5xl mb-5">Contact</h1>
         </div>
-        <div className="text-center mt-20">
-          <h1 className="lg:text-5xl md:text-3xl mb-10">Let Us Get In Touch</h1>
-          <span className="lg:text-2xl md:text-xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text ">
+        <div className="text-center lg:mt-20 xxs:mt-10">
+          <h1 className="lg:text-5xl md:text-3xl xxs:text-3xl mb-10">
+            Let Us Get In Touch
+          </h1>
+          <span className="lg:text-2xl md:text-xl xxs:text-xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text ">
             I am looking for a job as a Front-end/
             <br />
             Full-stack Developer. You can contact me <br />
@@ -21,7 +23,7 @@ export default function Contact() {
             <br /> play a game of LUDO. I’ll try to get back
             <br /> to you as soon as I can.
           </span>
-          <h1 className=" lg:text-5xl md:text-3xl mb-10 mt-10">
+          <h1 className="lg:text-5xl md:text-3xl xxs:text-3xl mb-10 mt-10">
             Here are my Socials
           </h1>
           <div className="flex space-x-10 items-center justify-center p-5 ">
