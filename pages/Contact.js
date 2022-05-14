@@ -58,7 +58,7 @@ export default function Contact() {
             href="https://www.facebook.com/ankit.sharda.77/"
             className="hover:animate-pulse"
           >
-            <Image src={"/Facebook.svg"} width={70} height={70} alt="fb" />
+            <Image src={"/facebook.svg"} width={70} height={70} alt="fb" />
           </a>
         </div>
       </div>
