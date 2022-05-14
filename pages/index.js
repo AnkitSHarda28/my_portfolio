@@ -75,7 +75,9 @@ export default function Home() {
           <Image src={"/Homepage.svg"} width={500} height={500} alt="me" />
         </div>
       </div>
-      <Footer />
+      <div className="bottom-0 fixed text-center items-center  w-screen text-white p-3 bg-gradient-to-r from-right to-left ">
+        <h1>&copy; All Rights Reserved by Ankit Sharda</h1>
+      </div>
     </div>
   );
 }
