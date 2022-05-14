@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="sm:justify-center">
       <Navbar />
-      <div className="lg:flex justify-between lg:mx-44 lg:mt-40 sm:mt-10 sm:text-center">
+      <div className="lg:flex lg:justify-between lg:mx-44 lg:mt-40 sm:mt-10 sm:text-center">
         <div className="space-y-20">
           <div>
             <h1 className="lg:text-8xl sm:text-5xl">Hi, I am Ankit</h1>
