@@ -36,7 +36,12 @@ export default function About() {
           </span>
         </div>
         <a className="lg:visible sm:invisible">
-          <Image src={"/AboutSoftware.svg"} width={400} height={400} />
+          <Image
+            src={"/AboutSoftware.svg"}
+            width={400}
+            height={400}
+            alt="computer"
+          />
         </a>
       </div>
 
@@ -50,7 +55,12 @@ export default function About() {
           </span>
         </div>
         <a className="lg:visible sm:invisible">
-          <Image src={"/AboutBasketball.svg"} width={400} height={400} />
+          <Image
+            src={"/AboutBasketball.svg"}
+            width={400}
+            height={400}
+            alt="basketball"
+          />
         </a>
       </div>
 
@@ -71,7 +81,12 @@ export default function About() {
           </span>
         </div>
         <a className="lg:visible sm:invisible">
-          <Image src={"/AboutTravelling.svg"} width={400} height={400} />
+          <Image
+            src={"/AboutTravelling.svg"}
+            width={400}
+            height={400}
+            alt="travel"
+          />
         </a>
       </div>
       <Footer />

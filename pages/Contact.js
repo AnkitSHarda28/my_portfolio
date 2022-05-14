@@ -28,37 +28,37 @@ export default function Contact() {
             href="https://www.linkedin.com/in/ankit-sharda-7878541a2/"
             className="hover:animate-pulse"
           >
-            <Image src={"/Linkedin.svg"} width={70} height={70} />
+            <Image src={"/Linkedin.svg"} width={70} height={70} alt="linkdin" />
           </a>
           <a
             href="https://github.com/AnkitSHarda28"
             className="hover:animate-pulse"
           >
-            <Image src={"/Github.svg"} width={70} height={70} />
+            <Image src={"/Github.svg"} width={70} height={70} alt="github" />
           </a>
           <a
             href="https://twitter.com/AnkitSharda19"
             className="hover:animate-pulse"
           >
-            <Image src={"/Twitter.svg"} width={70} height={70} />
+            <Image src={"/Twitter.svg"} width={70} height={70} alt="twitter" />
           </a>
           <a
             href="https://www.instagram.com/ankit_sharda28/"
             className="hover:animate-pulse"
           >
-            <Image src={"/Insta.svg"} width={80} height={80} />
+            <Image src={"/Insta.svg"} width={80} height={80} alt="insta" />
           </a>
           <a
             href="mailto:Ankitsharda68@gmail.com"
             className="hover:animate-pulse"
           >
-            <Image src={"/Gmail.svg"} width={70} height={70} />
+            <Image src={"/Gmail.svg"} width={70} height={70} alt="mail" />
           </a>
           <a
             href="https://www.facebook.com/ankit.sharda.77/"
             className="hover:animate-pulse"
           >
-            <Image src={"/Facebook.svg"} width={70} height={70} />
+            <Image src={"/Facebook.svg"} width={70} height={70} alt="fb" />
           </a>
         </div>
       </div>

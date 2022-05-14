@@ -25,19 +25,29 @@ export default function Home() {
               href="https://www.linkedin.com/in/ankit-sharda-7878541a2/"
               className="hover:animate-pulse"
             >
-              <Image src={"/Linkedin.svg"} width={70} height={70} />
+              <Image
+                src={"/Linkedin.svg"}
+                width={70}
+                height={70}
+                alt="linkdin"
+              />
             </a>
             <a
               href="https://github.com/AnkitSHarda28"
               className="hover:animate-pulse"
             >
-              <Image src={"/Github.svg"} width={70} height={70} />
+              <Image src={"/Github.svg"} width={70} height={70} alt="github" />
             </a>
             <a
               href="https://twitter.com/AnkitSharda19"
               className="hover:animate-pulse"
             >
-              <Image src={"/Twitter.svg"} width={70} height={70} />
+              <Image
+                src={"/Twitter.svg"}
+                width={70}
+                height={70}
+                alt="twitter"
+              />
             </a>
           </div>
           <div className="animate-bounce">
@@ -49,7 +59,7 @@ export default function Home() {
           </div>
         </div>
         <div className="lg:visible sm:invisible">
-          <Image src={"/Homepage.svg"} width={500} height={500} />
+          <Image src={"/Homepage.svg"} width={500} height={500} alt="me" />
         </div>
       </div>
       <Footer />

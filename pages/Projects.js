@@ -38,7 +38,12 @@ export default function Projects() {
           href="https://movie-app-liart.vercel.app/"
           className="lg:visible sm:invisible"
         >
-          <Image src={"/MovieApp.png"} width={600} height={350} />
+          <Image
+            src={"/MovieApp.png"}
+            width={600}
+            height={350}
+            alt="movieapp"
+          />
         </a>
       </div>
 
@@ -69,7 +74,12 @@ export default function Projects() {
           </span>
         </div>
         <a href="https://pounders.com.au/" className="lg:visible sm:invisible">
-          <Image src={"/Pounders.png"} width={600} height={350} />
+          <Image
+            src={"/Pounders.png"}
+            width={600}
+            height={350}
+            alt="pounders"
+          />
         </a>
       </div>
       <div className="flex justify-between mx-44 mt-52 items-center mb-52">
@@ -98,7 +108,12 @@ export default function Projects() {
           href="https://momos-ankitsharda28.vercel.app/"
           className="lg:visible sm:invisible"
         >
-          <Image src={"/MomoWest.png"} width={600} height={350} />
+          <Image
+            src={"/MomoWest.png"}
+            width={600}
+            height={350}
+            alt="momowest"
+          />
         </a>
       </div>
       <Footer />
