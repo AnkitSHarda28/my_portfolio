@@ -7,33 +7,21 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="">
-      <>
-        <div className="flex justify-between items-center text-white p-5 bg-gradient-to-r from-left to-right">
-          <div className="text-4xl">
-            <Link href="/">&lt;Ankit Sharda/&gt;</Link>
-          </div>
-          <div className="space-x-10  text-3xl">
-            <Link href="/">Home</Link>
-            <Link href="/About">About</Link>
-            <Link href="/Projects">Projects</Link>
-            <Link href="/Contact">Contact</Link>
-          </div>
-        </div>
-      </>
-      <div className="flex justify-between mx-44 mt-40">
+    <div className="sm:justify-center">
+      <Navbar />
+      <div className="lg:flex justify-between lg:mx-44 lg:mt-40 sm:mt-10 sm:text-center">
         <div className="space-y-20">
           <div>
-            <h1 className="lg:text-8xl ">Hi, I am Ankit</h1>
+            <h1 className="lg:text-8xl sm:text-5xl">Hi, I am Ankit</h1>
           </div>
           <div>
-            <span className="lg:text-5xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text">
+            <span className="lg:text-5xl sm:text-3xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text">
               I am a Front-End/ Full-Stack Developer.
               <br /> Currently I am. working on some
               <br /> personal projects.
             </span>
           </div>
-          <div className="flex space-x-10 items-center ">
+          <div className="lg:flex space-x-10 items-center ">
             <a
               href="https://www.linkedin.com/in/ankit-sharda-7878541a2/"
               className="hover:animate-pulse"
@@ -65,13 +53,13 @@ export default function Home() {
           </div>
           <div className="animate-bounce">
             <a href="/AnkitResume.pdf" download={"Ankit Sharda Resume"}>
-              <button className="lg:text-4xl lg:h-20 lg:w-64 rounded-lg  bg-gradient-to-r from-left1 to-right1">
+              <button className="text-4xl h-20 w-64 rounded-lg  bg-gradient-to-r from-left1 to-right1">
                 Resume
               </button>
             </a>
           </div>
         </div>
-        <div className="lg:visible sm:invisible">
+        <div className="lg:visible sm:m-10">
           <Image src={"/Homepage.svg"} width={500} height={500} alt="me" />
         </div>
       </div>
