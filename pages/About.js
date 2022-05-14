@@ -13,7 +13,7 @@ export default function About() {
             Hi There! My name is Ankit Sharda. I am a Software Engineer from
             Melbourne Australia 🇦🇺 .<br /> Currently, I am currently working on
             some personal projects such as an E-commerce
-            <br /> Website, MovieApp, and NewsApp.I've also contributed to
+            <br /> Website, MovieApp, and NewsApp. I have also contributed to
             several open source projects and built
             <br /> some of my own which are all available on my GitHub.
           </span>
@@ -24,7 +24,7 @@ export default function About() {
         <div>
           <h1 className="lg:text-5xl md:text-2xl mb-5">Software Engineering</h1>
           <span className="lg:text-3xl md:text-xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text">
-            Ever since my childhood I've been interested in Tehnology
+            Ever since my childhood I have been interested in Tehnology
             <br /> and alway wanted to learn how the Technology works. And so
             <br /> I knew that i had to pursue computers when I grew up. I
             <br />

@@ -10,7 +10,7 @@ export default function Contact() {
         <h1 className="lg:text-7xl md:text-5xl mb-5">Contact</h1>
       </div>
       <div className="text-center mt-20">
-        <h1 className="lg:text-5xl md:text-3xl mb-10">Let's Get In Touch</h1>
+        <h1 className="lg:text-5xl md:text-3xl mb-10">Let Us Get In Touch</h1>
         <span className="lg:text-2xl md:text-xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text ">
           I am looking for a job as a Front-end/
           <br />
