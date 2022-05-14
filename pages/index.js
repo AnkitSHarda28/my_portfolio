@@ -3,11 +3,24 @@ import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="">
-      <Navbar />
+      <>
+        <div className="flex justify-between items-center text-white p-5 bg-gradient-to-r from-left to-right">
+          <div className="text-4xl">
+            <Link href="/">&lt;Ankit Sharda/&gt;</Link>
+          </div>
+          <div className="space-x-10  text-3xl">
+            <Link href="/">Home</Link>
+            <Link href="/About">About</Link>
+            <Link href="/Projects">Projects</Link>
+            <Link href="/Contact">Contact</Link>
+          </div>
+        </div>
+      </>
       <div className="flex justify-between mx-44 mt-40">
         <div className="space-y-20">
           <div>
