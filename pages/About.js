@@ -81,7 +81,7 @@ export default function About() {
             love recording good moments and love watching them after
             <br /> couple of years. Another thing i enjoy is the Crypto
             <br /> Market. I love to learn about how the crypto world works. I
-            am too much fascinated about Web3 and Blockchan
+            am too much fascinated about Web3 and Blockchain.
           </span>
         </div>
         <a>
