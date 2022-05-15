@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <div className="flex justify-between items-center text-white p-5 bg-gradient-to-r from-left to-right">
+      <div className="flex sm:flex-col xxs:flex-col justify-between items-center text-white p-5 bg-gradient-to-r from-left to-right">
         <div className="lg:text-4xl sm:text-3xl xxs:text-sm">
           <Link href="/">&lt;Ankit Sharda/&gt;</Link>
         </div>
