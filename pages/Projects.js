@@ -34,10 +34,7 @@ export default function Projects() {
             <br /> movies into my Movie application
           </span>
         </div>
-        <a
-          href="https://movie-app-liart.vercel.app/"
-          className="lg:visible sm:invisible"
-        >
+        <a href="https://movie-app-liart.vercel.app/" className="">
           <Image
             src={"/MovieApp.png"}
             width={600}
@@ -71,7 +68,7 @@ export default function Projects() {
             <br /> pages.
           </span>
         </div>
-        <a href="https://pounders.com.au/" className="lg:visible sm:invisible">
+        <a href="https://pounders.com.au/" className="">
           <Image
             src={"/Pounders.png"}
             width={700}
@@ -102,10 +99,7 @@ export default function Projects() {
             <br />• Used Vercel to deploy the website globally.
           </span>
         </div>
-        <a
-          href="https://momos-ankitsharda28.vercel.app/"
-          className="lg:visible sm:invisible"
-        >
+        <a href="https://momos-ankitsharda28.vercel.app/" className="">
           <Image
             src={"/MomoWest.png"}
             width={600}
