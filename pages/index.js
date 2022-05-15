@@ -31,7 +31,7 @@ export default function Home() {
           <div>
             <span className="lg:text-4xl sm:text-3xl xxs:text-3xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text">
               I am a Front-End/ Full-Stack Developer.
-              <br /> Currently I am. working on some
+              <br /> Currently I am working on some
               <br /> personal projects.
             </span>
           </div>

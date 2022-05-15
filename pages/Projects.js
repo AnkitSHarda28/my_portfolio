@@ -13,7 +13,8 @@ export default function Projects() {
       <div className="lg:flex justify-between lg:mx-44 lg:mt-20 items-center  xxs:mt-10">
         <div>
           <h1 className="lg:text-5xl sm:text-2xl xxs:text-2xl mb-5">
-            Ankit Cinemas <br />
+            Ankit Cinemas
+            <br />
             (Full-Stack Development)
           </h1>
           <span className="text-3xl xxs:text-xl sm:text-3xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text">

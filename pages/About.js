@@ -11,11 +11,10 @@ export default function About() {
         <div className="text-center xxs:text-left ">
           <span className="text-3xl xxs:text-2xl sm:text-3xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text ">
             Hi There! My name is Ankit Sharda. I am a Software Engineer from
-            Melbourne Australia 🇦🇺 .<br /> Currently, I am currently working on
-            some personal projects such as an E-commerce
-            <br /> Website, MovieApp, and NewsApp. I have also contributed to
-            several open source projects and built
-            <br /> some of my own which are all available on my GitHub.
+            Melbourne Australia 🇦🇺 .<br /> Currently, I am working on some
+            personal projects such as an E-commerce Website, MovieApp, and
+            NewsApp. I have also contributed to several open source projects and
+            built some of my own which are all available on my GitHub.
           </span>
         </div>
       </div>
@@ -28,13 +27,13 @@ export default function About() {
           <span className="text-3xl xxs:text-xl sm:text-3xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text">
             Ever since my childhood I have been interested in Tehnology
             <br /> and alway wanted to learn how the Technology works. And so
-            <br /> I knew that i had to pursue computers when I grew up. I
+            <br /> I knew that I had to pursue computers when I grew up. I
             <br />
-            managed to get admission and pursue undergraduate in
+            managed to get admission and pursue degree in
             <br /> Software Engineering. I got hooked to Javascript when I
             <br />
-            started oding and was fasinated about the eosystem.
-            <br /> ReactJS is what i love to work with
+            started coding and was fasinated about the eosystem.
+            <br /> ReactJS and NextJS is what i love to work with.
           </span>
         </div>
         <a>
@@ -55,7 +54,7 @@ export default function About() {
           <span className="text-3xl xxs:text-xl sm:text-3xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text">
             Atively pursued basketball for more than 9 years. I have
             <br /> been playing it since year 2007 till date. I played
-            <br /> Nationals Under 17 in year 2017 (Represented Punjab).
+            <br /> National Matches Under 17 in year 2017 (Represented Punjab).
           </span>
         </div>
         <a>
@@ -81,7 +80,8 @@ export default function About() {
             <br />
             love recording good moments and love watching them after
             <br /> couple of years. Another thing i enjoy is the Crypto
-            <br /> Market. I love to learn about how the crypto world works.
+            <br /> Market. I love to learn about how the crypto world works. I
+            am too much fascinated about Web3 and Blockchan
           </span>
         </div>
         <a>
