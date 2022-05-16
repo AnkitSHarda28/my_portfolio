@@ -26,13 +26,13 @@ export default function About() {
           </h1>
           <span className="text-3xl xxs:text-xl sm:text-3xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text">
             Ever since my childhood I have been interested in Tehnology
-            <br /> and alway wanted to learn how the Technology works. And so
+            <br /> and always wanted to learn how the Technology works. And so
             <br /> I knew that I had to pursue computers when I grew up. I
             <br />
             managed to get admission and pursue degree in
             <br /> Software Engineering. I got hooked to Javascript when I
             <br />
-            started coding and was fasinated about the eosystem.
+            started coding and was fasinated about the echosystem.
             <br /> ReactJS and NextJS is what i love to work with.
           </span>
         </div>
