@@ -8,7 +8,14 @@ export default function Contact() {
       <div>
         <Navbar />
         <div className="lg:mx-44 lg:mt-40 xxs:text-center xxs:mt-10 sm:text-center sm:mt-10 h-auto">
-          <h1 className="lg:text-7xl sm:text-5xl xxs:text-5xl mb-5">Contact</h1>
+          <h1 className="lg:text-7xl sm:text-5xl xxs:text-5xl mb-5">
+            <a
+              href="https://ankitsharda28.github.io/contactMe/"
+              target={"_blank"}
+            >
+              Contact
+            </a>
+          </h1>
         </div>
         <div className="text-center lg:mt-20 xxs:mt-10">
           <h1 className="lg:text-5xl md:text-3xl xxs:text-3xl mb-10">
