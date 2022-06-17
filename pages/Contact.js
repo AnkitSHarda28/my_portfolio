@@ -11,7 +11,7 @@ export default function Contact() {
           <h1 className="lg:text-7xl sm:text-5xl xxs:text-5xl mb-5">
             <a
               href="https://ankitsharda28.github.io/contactMe/"
-              target={"_blank"}
+              rel="noopener noreferrer"
             >
               Contact
             </a>
