@@ -9,7 +9,6 @@ export default function Projects() {
       <div className="lg:mx-44 lg:mt-40 h-auto xxs:mt-10">
         <h1 className="lg:text-7xl sm:text-5xl xxs:text-5xl mb-5">Projects</h1>
       </div>
-
       <div className="lg:flex justify-between lg:mx-44 lg:mt-20 items-center  xxs:mt-10">
         <div>
           <h1 className="lg:text-5xl sm:text-2xl xxs:text-2xl mb-5">
@@ -44,7 +43,6 @@ export default function Projects() {
           />
         </a>
       </div>
-
       <div className="lg:flex justify-between lg:mx-44 lg:mt-20 items-center  xxs:mt-10">
         <div>
           <h1 className="lg:text-5xl sm:text-2xl xxs:text-2xl mb-5">
@@ -103,6 +101,38 @@ export default function Projects() {
         <a href="https://momos-ankitsharda28.vercel.app/" className="">
           <Image
             src={"/MomoWest.png"}
+            width={600}
+            height={350}
+            alt="momowest"
+          />
+        </a>
+      </div>{" "}
+      <div className="lg:flex justify-between lg:mx-44 lg:mt-20 items-center  xxs:mt-10">
+        <div>
+          <h1 className="lg:text-5xl sm:text-2xl xxs:text-2xl mb-5">
+            Ba-Dastoor <br />
+            (FullStack Engineering)
+          </h1>
+          <span className="text-3xl xxs:text-xl sm:text-3xl bg-gradient-to-r from-left1 to-right1 text-transparent bg-clip-text w-10">
+            Development of an E-commerce Web App for one business start-up
+            business
+            <br />
+            <a
+              href="https://ba-dastoor.vercel.app/"
+              className="text-white text-xl ml-4"
+            >
+              ba-dastoor.vercel.app/👈
+            </a>
+            <br />• Designed and created the prototypes of the entire website
+            using Figma. <br />• Used React.js for the website development
+            <br />
+            • Used Firebase for storing database, Authentication and backend
+            <br />• Used Vercel to deploy the website globally.
+          </span>
+        </div>
+        <a href="https://ba-dastoor.vercel.app/" className="">
+          <Image
+            src={"/Ba-dastoor.png"}
             width={600}
             height={350}
             alt="momowest"
