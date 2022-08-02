@@ -66,7 +66,7 @@ export default function Home() {
             </a>
           </div>
           <div className="animate-bounce">
-            <a href="/AnkitResume.pdf" download={"Ankit Sharda Resume"}>
+            <a href="/AnkitResume.pdf" target="_blank">
               <button className="text-4xl h-20 w-64 rounded-lg  bg-gradient-to-r from-left1 to-right1">
                 <h1 className="text-white">Resume</h1>
               </button>
